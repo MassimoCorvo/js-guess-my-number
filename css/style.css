@@ -29,7 +29,7 @@ button {
 
 input{
     text-align: center;
-    background-color: black;
+    background-color: rgba(0,0,0,0);
     border: 0px;
     width: 100px;
     color: white;
@@ -38,4 +38,9 @@ input{
 hr {
     opacity: 1;
     height: 20px;
+}
+
+#score{
+    width: fit-content;
+    text-align: end;
 }

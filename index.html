@@ -14,37 +14,39 @@
 
 </head>
 
-<body class="vh-100 d-flex align-items-center">
-    <div class="container text-light d-flex flex-column">
-        <button type="button" class="btn btn-lg btn-light align-self-center my-4">Try again</button>
-        <div class="border border-4 border-light p-2 mb-2 text-center mx-auto" id="result">
-                            ???
-        </div>
-        <h1 class="text-center">Guess my number</h1>
+<body>
+    <div class="vh-100 d-flex align-items-center">
+        <div class="container text-light d-flex flex-column">
+            <button type="button" class="btn btn-lg btn-light align-self-start my-4">Try again</button>
+            <div class="border border-4 border-light p-2 mb-2 text-center mx-auto" id="result">
+                ???
+            </div>
+            <h1 class="text-center" id="printResult">Guess my number</h1>
 
-        <hr>
+            <hr>
 
-        <div class="row">
-            <div class="col-6 d-flex justify-content-end">
+            <div class="row">
+                <div class="col-6 d-flex justify-content-end">
                     <form>
                         <div class="d-flex justify-content-center border align-items-center border-4 border-light p-2 mb-2"
                             id="choice">
-                            <input type="number" name="number-choice" />
+                            <input type="number" name="number-choice" id="number-choice" min="1" max="20"
+                                placeholder="#" />
                         </div>
                         <div class="d-flex justify-content-center" id="check">
                             <button type="submit" class="btn btn-lg btn-light">Check</button>
                         </div>
                     </form>
-            </div>
+                </div>
 
-            <div class="col-6 d-flex flex-column align-items-start fs-4">
-                <div>Start guessing...</div>
-                <div>Score: </div>
-                <div>High score: </div>
+                <div class="col-6 d-flex flex-column fs-4 px-5 justify-content-startn" id="score">
+                    <div>Start guessing...</div>
+                    <div>Score: </div>
+                    <div>High score: </div>
+                </div>
             </div>
         </div>
     </div>
-
     <script src="main.js"></script>
 </body>
 
