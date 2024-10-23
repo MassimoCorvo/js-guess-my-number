@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Pixelify Sans";
+}
+
+h1{
+    font-size: 80px;
+}
+
+button {
+    border-radius: 0px;
+}
+
+#choice, #result{
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+}
+
+#check{
+    width: 200px;
+}
+
+input{
+    text-align: center;
+    background-color: black;
+    border: 0px;
+    width: 100px;
+    color: white;
+}
+
+hr {
+    opacity: 1;
+    height: 20px;
+}
