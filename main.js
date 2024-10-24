@@ -64,7 +64,7 @@ again.addEventListener("click", function () {
 
     document.querySelector("body").classList.remove("bg-success");
     checkButton.removeAttribute("disabled");
-    document.getElementById("start-guessing").innerText = "Start guessing...";
+    guessing.innerText = "Start guessing...";
 
     //Nasconde il numero da indovinare
     result.innerText = "???";
